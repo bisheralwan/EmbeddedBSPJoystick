@@ -6,7 +6,7 @@ int main() {
 	
 	WDT_A->CTL = WDT_A_CTL_PW | WDT_A_CTL_HOLD;
 
-	//posotions for the quadrants
+	//positions for the quadrants
 	uint16_t x = 0;
 	uint16_t y = 0;
 	uint8_t select = 1;
